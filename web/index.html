@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="min.slip.js"></script>
+</head>
+<body>
+<div id="container">
+  <div class="page page-1"><img src="images/1.jpg"></div>
+  <div class="page page-2"><img src="images/2.jpg"></div>
+  <div class="page page-3"><img src="images/3.jpg"></div>
+  <div class="page page-4"><img src="images/4.jpg"></div>
+</div>
+<script>
+	var container = document.getElementById('container');
+var pages = document.querySelectorAll('.page');
+var slip = Slip(container, 'y').webapp(pages);
+</script>
+</body>
+</html>
